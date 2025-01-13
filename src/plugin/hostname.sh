@@ -10,7 +10,7 @@ plugin_hostname_accent_color=$(get_tmux_option "@theme_plugin_hostname_accent_co
 plugin_hostname_accent_color_icon=$(get_tmux_option "@theme_plugin_hostname_accent_color_icon" "blue0")
 
 function load_plugin() {
-    echo "${hostname}"
+    echo "$(hostname)"
 }
 load_plugin
 
